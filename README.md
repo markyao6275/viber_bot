@@ -20,6 +20,6 @@ Once it's running, create the webhook with
 python webhook_setup.py -n <NAME_OF_BOT> -i <URL_TO_BOT_PROFILE_IMAGE> -v <VIBER_AUTHENTICATION_TOKEN> -u <SERVER_HTTPS_URL>
 ```
 
-You can obtain an HTTPS URL using a tool like [ngrok](https://ngrok.com/).
+You can obtain an HTTPS URL using a tool like [ngrok](https://ngrok.com/) and have it forward requests to `localhost:5001`.
 ```
 
